@@ -1,0 +1,30 @@
+body{
+    background-color: #FFF8DC;
+
+}
+/* #483D8B */
+h1{
+    font-family: 'Indie Flower', sans-serif;
+
+}
+
+@media screen and (min-width: 350px)
+{
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation li{
+        padding: 1em;
+    }
+    
+    .courseName{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .coursedescription{
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+    }
+    
+}
